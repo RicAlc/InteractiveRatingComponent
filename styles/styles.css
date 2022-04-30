@@ -1,0 +1,96 @@
+/* COLORES
+site background: #141519
+card: #202731
+dark circle: #262F38
+light circle: #7E869A
+orange: #FC7615
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color:#141519 ;
+}
+
+.card{
+    background-color: #202731;
+    width: 360px;
+    height: 360px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 2rem;
+}
+.star{
+    background-color:#262F38;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.star-icon{
+    width: .9rem;
+}
+.card-title{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.card-desc{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin-top: 15px;
+}
+.rating-scale{
+    display: flex;
+    justify-content: space-between;
+}
+.rating-btn{
+    padding: 1rem;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 50%;
+    width: 2.6rem;
+    height: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262F38;
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass", sans-serif;
+}
+.rating-btn:hover{
+    background-color: #FC7615;
+    color: #FFFFFF ;
+}
+.rating-btn:active{
+    background-color: hsl(217, 12%, 63%);
+    color: #FFFFFF;
+}
+.submit-btn{
+    padding: 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    line-height: 15px;
+    border: 0;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    background-color:  #FC7615;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Overpass", sans-serif;
+}
+.submit-btn:hover{
+    background-color: #FFFFFF;
+    color: #FC7615;
+}
+.submit-btn, .rating-btn{
+    cursor: pointer;
+}
