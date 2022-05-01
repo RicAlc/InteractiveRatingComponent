@@ -5,6 +5,8 @@ dark circle: #262F38
 light circle: #7E869A
 orange: #FC7615
 */
+@use 'globals';
+@use 'components';
 *{
     margin: 0;
     padding: 0;
